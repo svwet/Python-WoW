@@ -1,0 +1,38 @@
+Functions:
+
+calculateX
+initializes: bNg, bNx, bNn, bNk
+changes:     k,N
+uses:        g, N, Salt, k, bNg, bNn, username, pwHash
+
+calculateM2
+initializes: 
+uses:        a, m1Loc, calculateM2
+
+
+calculateM1
+initializes: 
+uses:        a, m1Loc, calculateM2, g, N, Salt, PublicB, ssHash
+
+
+calculateU
+initializes: bna, bnu
+uses:        a, PublicB
+
+calculateS
+initializes: s
+uses:        bna, bNv, bnu, bNn, bNb
+
+
+calculateK
+initializes: ssHash
+uses:        s
+
+calculateV
+initializes: bNv
+uses:        b, bNg, bNk, bNx, bNn
+
+
+calculateB
+initializes: bNb,b, PublicB
+uses:        b, bNg, bNn, bNk, bNv, PublicB

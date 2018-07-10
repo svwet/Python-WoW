@@ -1,0 +1,78 @@
+Variables:
+
+g
+inited: global
+used: calculateX, calculateM1
+
+N
+inited: global
+used: calculateX, calculateM1
+
+Salt
+inited: global
+used: calculateX, calculateM1
+
+k
+inited: global
+used: calculateX
+
+PublicB
+inited: calculateB
+used:   calculateB, calculateU, calculateM1
+
+b
+inited: calculateB
+used:  calculateB, calculateV
+
+bNg
+inited: calculateX
+used: calculateB, calculateV, calculateX
+
+bNx
+inited: calculateX
+used: calculateV,
+
+bNn
+inited: calculateX
+used: calculateB, calculateV, calculateS, calculateX
+
+bNk
+inited: calculateX
+used: calculateB, calculateV
+
+bNv
+inited: calculateV
+used: calculateB, calculateS, calculateV
+
+username
+inited: not here
+used: calculateX
+
+pwHash
+inited: not here
+used: calculateX
+
+a
+inited: not here
+used: calculateU, calculateM2, calculateM1
+
+m1Loc
+inited: not here
+used: calculateM2, calculateM1
+
+ssHash
+inited:calculateK
+used: calculateM2, calculateM1
+
+
+bna
+inited: calculateU
+used: calculateS
+
+bnu
+inited: calculateU
+used: calculateS
+
+s
+inited: calculateS
+used: calculateK
